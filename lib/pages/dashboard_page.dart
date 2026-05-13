@@ -14,7 +14,6 @@ import 'package:focusyn_app/services/cloud_service.dart'; // Cloud synchronizati
 import 'package:focusyn_app/services/history_service.dart'; // Flow session history
 import 'package:focusyn_app/services/task_service.dart'; // Task management service
 import 'package:focusyn_app/utils/my_scroll_shadow.dart'; // Custom scroll shadow widget
-import 'package:hive/hive.dart'; // Local storage
 
 /// A page that displays the user's daily tasks, focus sessions, and progress.
 ///
@@ -80,7 +79,7 @@ class _DashboardPageState extends State<DashboardPage> {
   void initState() {
     super.initState();
     // Initialize points from Hive cache
-    _points = Hive.box(Keys.brainBox).get(Keys.brainPoints, defaultValue: 100);
+    _points = BrainService.getPoints();
     _refreshFlowHistory();
     // Schedule the initial data load for after the widget is built
     WidgetsBinding.instance.addPostFrameCallback((_) {
