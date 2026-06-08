@@ -22,6 +22,13 @@
 - **Cloud Sync**: Automatic synchronization of your data
 - **Responsive Design**: Works seamlessly across different screen sizes
 
+## Tech Stack
+
+![Flutter](https://img.shields.io/badge/Flutter-dodgerblue?style=for-the-badge&logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase)
+![OpenAI API](https://img.shields.io/badge/OpenAI-grey?style=for-the-badge&logo=openaigym&logoColor=white)
+
 ## Screenshots
 
 ### Dashboard
