@@ -24,24 +24,24 @@
 
 ## Tech Stack
 
-![Flutter](https://img.shields.io/badge/Flutter-dodgerblue?style=for-the-badge&logo=flutter)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase)
-![OpenAI API](https://img.shields.io/badge/OpenAI-grey?style=for-the-badge&logo=openaigym&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-fec400?style=for-the-badge&logo=firebase&logoColor=DD2C00)
+![OpenAI](https://img.shields.io/badge/OpenAI-white?style=for-the-badge&logo=openaigym&logoColor=black)
 
 ## Screenshots
 
 ### Dashboard
-![dashboard](images/dashboard.jpg)
+![Dashboard](images/dashboard.jpg)
 
 ### Focus Lists
-![focuses](images/focuses.jpg)
+![Focuses](images/focuses.jpg)
 
 ### Synthe AI
-![synthe](images/synthe-1.jpg)
+![Synthe](images/synthe-1.jpg)
 
 ### Sign In
-![signin](images/sign-in.jpg)
+![Sign In](images/sign-in.jpg)
 
 ## Getting Started
 
