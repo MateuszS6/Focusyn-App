@@ -1,4 +1,4 @@
-# Focusyn
+# Focusyn: Neurodiverse Productivity App
 
 **Focusyn** is a modern productivity and focus management app built with Flutter. It helps you stay on track, manage mental energy, and grow focus habits through a calm, minimal UI — powered by task planning, streak tracking, and an AI assistant named Synthe.
 
@@ -7,6 +7,20 @@
 - **Course**: IN3007 Individual Project
 - **Institution**: City, University of London
 - **Term**: Spring 2025
+
+## Images
+
+### Dashboard
+![Dashboard](docs/images/dashboard.jpg)
+
+### Focus Lists
+![Focuses](docs/images/focuses.jpg)
+
+### Synthe AI
+![Synthe](docs/images/synthe-1.jpg)
+
+### Sign In
+![Sign In](docs/images/sign-in.jpg)
 
 ## Features
 
@@ -22,58 +36,12 @@
 - **Cloud Sync**: Automatic synchronization of your data
 - **Responsive Design**: Works seamlessly across different screen sizes
 
-## Tech Stack
+## Stack
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart)
 ![Firebase](https://img.shields.io/badge/Firebase-fec400?style=for-the-badge&logo=firebase&logoColor=DD2C00)
-![OpenAI](https://img.shields.io/badge/OpenAI-white?style=for-the-badge&logo=openaigym&logoColor=black)
-
-## Screenshots
-
-### Dashboard
-![Dashboard](images/dashboard.jpg)
-
-### Focus Lists
-![Focuses](images/focuses.jpg)
-
-### Synthe AI
-![Synthe](images/synthe-1.jpg)
-
-### Sign In
-![Sign In](images/sign-in.jpg)
-
-## Getting Started
-
-### Prerequisites
-- Flutter SDK (latest stable version)
-- Firebase account
-- Android Studio / VS Code with Flutter extensions
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/focusyn_app.git
-cd focusyn_app
-```
-
-2. Install dependencies:
-```bash
-flutter pub get
-```
-
-3. Configure Firebase:
-   - Create a new Firebase project
-   - Add Android and iOS apps to your Firebase project
-   - Download and add the configuration files:
-     - `google-services.json` for Android
-     - `GoogleService-Info.plist` for iOS
-
-4. Run the app:
-```bash
-flutter run
-```
+![OpenAI API](https://img.shields.io/badge/OpenAI_(API)-white?style=for-the-badge&logo=openaigym&logoColor=black)
 
 ## Project Structure
 
@@ -108,6 +76,38 @@ The app uses:
 - **Cloud Firestore**: For cloud synchronization
 - **Brain Points System**: For tracking mental energy
 
+## Getting Started
+
+### Prerequisites
+- Flutter SDK (latest stable version)
+- Firebase account
+- Android Studio / VS Code with Flutter extensions
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/focusyn_app.git
+cd focusyn_app
+```
+
+2. Install dependencies:
+```bash
+flutter pub get
+```
+
+3. Configure Firebase:
+   - Create a new Firebase project
+   - Add Android and iOS apps to your Firebase project
+   - Download and add the configuration files:
+     - `google-services.json` for Android
+     - `GoogleService-Info.plist` for iOS
+
+4. Run the app:
+```bash
+flutter run
+```
+
 ## Testing
 
 Run all unit tests:
@@ -131,6 +131,3 @@ Use hive_test and mockito for mocking storage and services.
 - OpenAI – powering Synthe
 - DesignEvo – for logo creation
 - ChatGPT – for helpful guidance in development
-
-
-
